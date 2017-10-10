@@ -1,0 +1,199 @@
+﻿body {
+    background:grey;
+}
+
+nav#navvy.navbar.navbar-static-top{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: grey;
+}
+#navvy a{
+    color:white;
+}
+#navvy a:hover{
+    background-color: black;
+}
+.mainSection {
+    background-image: url('../Img/home image.jpg');
+    background-size:cover;
+    width:auto;
+    height: 400px;
+    background-repeat:no-repeat;
+    text-align:center;
+    background-position: top center;
+    color:white;  
+    border:none;
+    text-align:center;
+}
+.VillaMap{
+    background-size:cover;
+    width:225px;
+    height: 400px;
+    background-repeat:no-repeat;
+    text-align:center;
+    background-position: top center;
+    color:white;  
+    border:none;
+}
+.container-fluid.no-gutters{
+    padding:0px;
+    padding-right: 0px;
+    padding-left:0px;
+
+}
+.container-fluid.no-gutters > [class^="col-"],
+.container-fluid.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+.headerun{
+    text-align:center;
+    color:white;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+.location{
+    background-color:white;
+    text-align:left;
+    padding-left:50px;
+    padding-right:45px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.imgprimary{
+    background-color:white;
+    width:300px;
+    height:250px;
+}
+.imgprimary2{
+    width:250px;
+    height:250px;
+}
+.location2{
+    color:white;
+    text-align:left;
+    padding-left:50px;
+    padding-right:45px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.areas{
+   grid-column:auto;
+   background:white no-repeat;
+}
+.textbox{
+     background-color: lightgray;
+     text-align:center;
+     background-attachment: fixed;
+     background-position:center;
+     margin: 0px;
+     border-top: 0px;
+     border: 1px solid black;
+     opacity:0.6;
+     color:white;
+}
+.longpool {
+    background-image: url('Img/longpoolpicture.jpg');
+    width:348px;
+    height:348px;
+    text-align:center;
+    background-size:cover;
+    
+}
+.whitewall {
+    background-image: url('Img/whitewall.png');
+    width:348px;
+    height:348px;
+    text-align:center;
+    background-size:cover;
+}
+.backyardpool {
+    background-image: url('Img/backyardpool.jpg');
+    width:348px;
+    height:348px;
+    text-align:center;
+    background-size:cover;
+}
+.bedroom {
+    background-image: url('Img/whitebedroom.jpg');
+    width:348px;
+    height:348px;
+    text-align:center;
+    background-size:cover;
+
+    
+}
+.backyardtable {
+    background-image: url('Img/backyardTable.jpg');
+    width:348px;
+    height:348px;
+    text-align:center;
+    background-size:cover;
+    
+}
+.backyardtablelight {
+    background-image: url('Img/backyardTablelight.jpg');
+    width:348px;
+    height:348px;
+    text-align:center;
+    background-size:cover;
+    
+}
+.carousel{
+    text-align:center;
+    background-color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.form{
+    background:white;
+}
+.information{
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    padding-right:40px;
+    padding-bottom:473px;
+    text-align:left;
+    
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact{
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+.footer{
+    padding:20px;
+    text-align:center;
+    color:white;
+}
